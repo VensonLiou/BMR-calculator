@@ -7,25 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5226FA712264DE430070A79C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5226FA702264DE430070A79C /* AppDelegate.swift */; };
-		5226FA732264DE430070A79C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5226FA722264DE430070A79C /* ViewController.swift */; };
-		5226FA762264DE430070A79C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5226FA742264DE430070A79C /* Main.storyboard */; };
-		5226FA782264DE440070A79C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5226FA772264DE440070A79C /* Assets.xcassets */; };
-		5226FA7B2264DE440070A79C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5226FA792264DE440070A79C /* LaunchScreen.storyboard */; };
+		52973E132263906A00B7FF89 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52973E122263906A00B7FF89 /* ResultViewController.swift */; };
+		52973E15226394B600B7FF89 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52973E14226394B600B7FF89 /* InputViewController.swift */; };
+		52973E192264CAB600B7FF89 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52973E182264CAB600B7FF89 /* README.md */; };
+		52973E1E2264CC0500B7FF89 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 52973E1D2264CC0500B7FF89 /* screenshot.png */; };
+		529ABD34226178AE00FDB08A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529ABD33226178AE00FDB08A /* AppDelegate.swift */; };
+		529ABD36226178AE00FDB08A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529ABD35226178AE00FDB08A /* ViewController.swift */; };
+		529ABD39226178AE00FDB08A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD37226178AE00FDB08A /* Main.storyboard */; };
+		529ABD3B226178B000FDB08A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD3A226178B000FDB08A /* Assets.xcassets */; };
+		529ABD3E226178B000FDB08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD3C226178B000FDB08A /* LaunchScreen.storyboard */; };
+		529ABD482261ADE700FDB08A /* SharpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529ABD472261ADE700FDB08A /* SharpImageView.swift */; };
+		529ABD6822623DFA00FDB08A /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD5E22623DF800FDB08A /* 5.mp3 */; };
+		529ABD6922623DFA00FDB08A /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD5F22623DF900FDB08A /* 6.mp3 */; };
+		529ABD6A22623DFA00FDB08A /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD6022623DF900FDB08A /* 8.mp3 */; };
+		529ABD6B22623DFA00FDB08A /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD6122623DF900FDB08A /* 3.mp3 */; };
+		529ABD6C22623DFA00FDB08A /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD6222623DF900FDB08A /* 4.mp3 */; };
+		529ABD6D22623DFA00FDB08A /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD6322623DF900FDB08A /* 9.mp3 */; };
+		529ABD6E22623DFA00FDB08A /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD6422623DF900FDB08A /* 7.mp3 */; };
+		529ABD6F22623DFA00FDB08A /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD6522623DF900FDB08A /* 1.mp3 */; };
+		529ABD7022623DFA00FDB08A /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD6622623DFA00FDB08A /* 2.mp3 */; };
+		529ABD7122623DFA00FDB08A /* 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529ABD6722623DFA00FDB08A /* 10.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5226FA6D2264DE430070A79C /* BMR calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMR calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5226FA702264DE430070A79C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5226FA722264DE430070A79C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5226FA752264DE430070A79C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5226FA772264DE440070A79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5226FA7A2264DE440070A79C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5226FA7C2264DE440070A79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52973E122263906A00B7FF89 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		52973E14226394B600B7FF89 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		52973E182264CAB600B7FF89 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		52973E1D2264CC0500B7FF89 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		529ABD30226178AE00FDB08A /* BMR calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMR calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		529ABD33226178AE00FDB08A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		529ABD35226178AE00FDB08A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		529ABD38226178AE00FDB08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		529ABD3A226178B000FDB08A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		529ABD3D226178B000FDB08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		529ABD3F226178B000FDB08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529ABD472261ADE700FDB08A /* SharpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageView.swift; sourceTree = "<group>"; };
+		529ABD5E22623DF800FDB08A /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		529ABD5F22623DF900FDB08A /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		529ABD6022623DF900FDB08A /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
+		529ABD6122623DF900FDB08A /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		529ABD6222623DF900FDB08A /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		529ABD6322623DF900FDB08A /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9.mp3; sourceTree = "<group>"; };
+		529ABD6422623DF900FDB08A /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
+		529ABD6522623DF900FDB08A /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		529ABD6622623DFA00FDB08A /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		529ABD6722623DFA00FDB08A /* 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5226FA6A2264DE430070A79C /* Frameworks */ = {
+		529ABD2D226178AE00FDB08A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +65,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5226FA642264DE430070A79C = {
+		52973E1A2264CBCC00B7FF89 /* README_resource */ = {
 			isa = PBXGroup;
 			children = (
-				5226FA6F2264DE430070A79C /* BMR calculator */,
-				5226FA6E2264DE430070A79C /* Products */,
+				52973E1D2264CC0500B7FF89 /* screenshot.png */,
+			);
+			path = README_resource;
+			sourceTree = "<group>";
+		};
+		529ABD27226178AE00FDB08A = {
+			isa = PBXGroup;
+			children = (
+				52973E1A2264CBCC00B7FF89 /* README_resource */,
+				52973E182264CAB600B7FF89 /* README.md */,
+				529ABD32226178AE00FDB08A /* BMR calculator */,
+				529ABD31226178AE00FDB08A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5226FA6E2264DE430070A79C /* Products */ = {
+		529ABD31226178AE00FDB08A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5226FA6D2264DE430070A79C /* BMR calculator.app */,
+				529ABD30226178AE00FDB08A /* BMR calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5226FA6F2264DE430070A79C /* BMR calculator */ = {
+		529ABD32226178AE00FDB08A /* BMR calculator */ = {
 			isa = PBXGroup;
 			children = (
-				5226FA702264DE430070A79C /* AppDelegate.swift */,
-				5226FA722264DE430070A79C /* ViewController.swift */,
-				5226FA742264DE430070A79C /* Main.storyboard */,
-				5226FA772264DE440070A79C /* Assets.xcassets */,
-				5226FA792264DE440070A79C /* LaunchScreen.storyboard */,
-				5226FA7C2264DE440070A79C /* Info.plist */,
+				529ABD33226178AE00FDB08A /* AppDelegate.swift */,
+				529ABD35226178AE00FDB08A /* ViewController.swift */,
+				52973E14226394B600B7FF89 /* InputViewController.swift */,
+				52973E122263906A00B7FF89 /* ResultViewController.swift */,
+				529ABD37226178AE00FDB08A /* Main.storyboard */,
+				529ABD472261ADE700FDB08A /* SharpImageView.swift */,
+				529ABD3C226178B000FDB08A /* LaunchScreen.storyboard */,
+				529ABD3A226178B000FDB08A /* Assets.xcassets */,
+				529ABD3F226178B000FDB08A /* Info.plist */,
+				529ABD6522623DF900FDB08A /* 1.mp3 */,
+				529ABD6622623DFA00FDB08A /* 2.mp3 */,
+				529ABD6122623DF900FDB08A /* 3.mp3 */,
+				529ABD6222623DF900FDB08A /* 4.mp3 */,
+				529ABD5E22623DF800FDB08A /* 5.mp3 */,
+				529ABD5F22623DF900FDB08A /* 6.mp3 */,
+				529ABD6422623DF900FDB08A /* 7.mp3 */,
+				529ABD6022623DF900FDB08A /* 8.mp3 */,
+				529ABD6322623DF900FDB08A /* 9.mp3 */,
+				529ABD6722623DFA00FDB08A /* 10.mp3 */,
 			);
 			path = "BMR calculator";
 			sourceTree = "<group>";
@@ -67,13 +120,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5226FA6C2264DE430070A79C /* BMR calculator */ = {
+		529ABD2F226178AE00FDB08A /* BMR calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5226FA7F2264DE440070A79C /* Build configuration list for PBXNativeTarget "BMR calculator" */;
+			buildConfigurationList = 529ABD42226178B000FDB08A /* Build configuration list for PBXNativeTarget "BMR calculator" */;
 			buildPhases = (
-				5226FA692264DE430070A79C /* Sources */,
-				5226FA6A2264DE430070A79C /* Frameworks */,
-				5226FA6B2264DE430070A79C /* Resources */,
+				529ABD2C226178AE00FDB08A /* Sources */,
+				529ABD2D226178AE00FDB08A /* Frameworks */,
+				529ABD2E226178AE00FDB08A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +134,25 @@
 			);
 			name = "BMR calculator";
 			productName = "BMR calculator";
-			productReference = 5226FA6D2264DE430070A79C /* BMR calculator.app */;
+			productReference = 529ABD30226178AE00FDB08A /* BMR calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5226FA652264DE430070A79C /* Project object */ = {
+		529ABD28226178AE00FDB08A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "劉玟慶";
 				TargetAttributes = {
-					5226FA6C2264DE430070A79C = {
+					529ABD2F226178AE00FDB08A = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = 5226FA682264DE430070A79C /* Build configuration list for PBXProject "BMR calculator" */;
+			buildConfigurationList = 529ABD2B226178AE00FDB08A /* Build configuration list for PBXProject "BMR calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +160,69 @@
 				en,
 				Base,
 			);
-			mainGroup = 5226FA642264DE430070A79C;
-			productRefGroup = 5226FA6E2264DE430070A79C /* Products */;
+			mainGroup = 529ABD27226178AE00FDB08A;
+			productRefGroup = 529ABD31226178AE00FDB08A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5226FA6C2264DE430070A79C /* BMR calculator */,
+				529ABD2F226178AE00FDB08A /* BMR calculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5226FA6B2264DE430070A79C /* Resources */ = {
+		529ABD2E226178AE00FDB08A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5226FA7B2264DE440070A79C /* LaunchScreen.storyboard in Resources */,
-				5226FA782264DE440070A79C /* Assets.xcassets in Resources */,
-				5226FA762264DE430070A79C /* Main.storyboard in Resources */,
+				529ABD7122623DFA00FDB08A /* 10.mp3 in Resources */,
+				529ABD6F22623DFA00FDB08A /* 1.mp3 in Resources */,
+				529ABD6822623DFA00FDB08A /* 5.mp3 in Resources */,
+				529ABD6B22623DFA00FDB08A /* 3.mp3 in Resources */,
+				529ABD6E22623DFA00FDB08A /* 7.mp3 in Resources */,
+				529ABD3E226178B000FDB08A /* LaunchScreen.storyboard in Resources */,
+				529ABD6D22623DFA00FDB08A /* 9.mp3 in Resources */,
+				529ABD3B226178B000FDB08A /* Assets.xcassets in Resources */,
+				529ABD6A22623DFA00FDB08A /* 8.mp3 in Resources */,
+				52973E1E2264CC0500B7FF89 /* screenshot.png in Resources */,
+				529ABD39226178AE00FDB08A /* Main.storyboard in Resources */,
+				52973E192264CAB600B7FF89 /* README.md in Resources */,
+				529ABD7022623DFA00FDB08A /* 2.mp3 in Resources */,
+				529ABD6922623DFA00FDB08A /* 6.mp3 in Resources */,
+				529ABD6C22623DFA00FDB08A /* 4.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5226FA692264DE430070A79C /* Sources */ = {
+		529ABD2C226178AE00FDB08A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5226FA732264DE430070A79C /* ViewController.swift in Sources */,
-				5226FA712264DE430070A79C /* AppDelegate.swift in Sources */,
+				52973E132263906A00B7FF89 /* ResultViewController.swift in Sources */,
+				529ABD36226178AE00FDB08A /* ViewController.swift in Sources */,
+				52973E15226394B600B7FF89 /* InputViewController.swift in Sources */,
+				529ABD482261ADE700FDB08A /* SharpImageView.swift in Sources */,
+				529ABD34226178AE00FDB08A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5226FA742264DE430070A79C /* Main.storyboard */ = {
+		529ABD37226178AE00FDB08A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5226FA752264DE430070A79C /* Base */,
+				529ABD38226178AE00FDB08A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5226FA792264DE440070A79C /* LaunchScreen.storyboard */ = {
+		529ABD3C226178B000FDB08A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5226FA7A2264DE440070A79C /* Base */,
+				529ABD3D226178B000FDB08A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +230,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5226FA7D2264DE440070A79C /* Debug */ = {
+		529ABD40226178B000FDB08A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +291,7 @@
 			};
 			name = Debug;
 		};
-		5226FA7E2264DE440070A79C /* Release */ = {
+		529ABD41226178B000FDB08A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +346,7 @@
 			};
 			name = Release;
 		};
-		5226FA802264DE440070A79C /* Debug */ = {
+		529ABD43226178B000FDB08A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -295,7 +363,7 @@
 			};
 			name = Debug;
 		};
-		5226FA812264DE440070A79C /* Release */ = {
+		529ABD44226178B000FDB08A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -315,25 +383,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5226FA682264DE430070A79C /* Build configuration list for PBXProject "BMR calculator" */ = {
+		529ABD2B226178AE00FDB08A /* Build configuration list for PBXProject "BMR calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5226FA7D2264DE440070A79C /* Debug */,
-				5226FA7E2264DE440070A79C /* Release */,
+				529ABD40226178B000FDB08A /* Debug */,
+				529ABD41226178B000FDB08A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5226FA7F2264DE440070A79C /* Build configuration list for PBXNativeTarget "BMR calculator" */ = {
+		529ABD42226178B000FDB08A /* Build configuration list for PBXNativeTarget "BMR calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5226FA802264DE440070A79C /* Debug */,
-				5226FA812264DE440070A79C /* Release */,
+				529ABD43226178B000FDB08A /* Debug */,
+				529ABD44226178B000FDB08A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5226FA652264DE430070A79C /* Project object */;
+	rootObject = 529ABD28226178AE00FDB08A /* Project object */;
 }

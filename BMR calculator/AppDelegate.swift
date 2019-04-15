@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  BMR calculator
 //
-//  Created by 劉玟慶 on 2019/4/15.
+//  Created by 劉玟慶 on 2019/4/13.
 //  Copyright © 2019 劉玟慶. All rights reserved.
 //
 
